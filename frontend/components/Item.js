@@ -8,7 +8,7 @@ import formatMoney from "../lib/formatMoney";
 import Items from "./Items";
 
 class Item extends Component {
-  static PropTypes = {
+  static propTypes = {
     item: PropTypes.object.isRequired
   };
 
