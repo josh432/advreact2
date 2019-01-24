@@ -5,7 +5,7 @@ import Nav from "../components/Nav";
 import { CURRENT_USER_QUERY } from "../components/User";
 import { MockedProvider } from "react-apollo/test-utils";
 import { fakeUser, fakeCartItem } from "../lib/testUtils";
-import { valueToObjectRepresentation } from "apollo-utilities";
+
 
 const notSignedInMocks = [
   {
