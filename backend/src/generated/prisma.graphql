@@ -1,5 +1,5 @@
-# source: https://us1.prisma.sh/josh-silverman-ea7585/sick-fits2/dev
-# timestamp: Thu Jan 17 2019 15:54:14 GMT-0800 (Pacific Standard Time)
+# source: https://store-simulation-24c2e0fb7d.herokuapp.com/store-simulation/prod
+# timestamp: Thu Jan 31 2019 14:17:10 GMT-0800 (Pacific Standard Time)
 
 type AggregateCartItem {
   count: Int!
@@ -213,7 +213,6 @@ input CartItemUpdateManyMutationInput {
 input CartItemUpdateManyWithoutUserInput {
   create: [CartItemCreateWithoutUserInput!]
   connect: [CartItemWhereUniqueInput!]
-  set: [CartItemWhereUniqueInput!]
   disconnect: [CartItemWhereUniqueInput!]
   delete: [CartItemWhereUniqueInput!]
   update: [CartItemUpdateWithWhereUniqueWithoutUserInput!]
@@ -1201,7 +1200,6 @@ input OrderItemUpdateManyDataInput {
 input OrderItemUpdateManyInput {
   create: [OrderItemCreateInput!]
   connect: [OrderItemWhereUniqueInput!]
-  set: [OrderItemWhereUniqueInput!]
   disconnect: [OrderItemWhereUniqueInput!]
   delete: [OrderItemWhereUniqueInput!]
   update: [OrderItemUpdateWithWhereUniqueNestedInput!]

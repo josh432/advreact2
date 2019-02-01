@@ -1,6 +1,9 @@
 {
   "name": "sick-fits-backend",
   "description": "the backend of sick fits",
+  "engines": {
+    "npm": "8.11.1"
+  },
   "scripts": {
     "start": "nodemon -e js,graphql -x node src/index.js",
     "dev": "nodemon -e js,graphql -x node --inspect src/index.js",
